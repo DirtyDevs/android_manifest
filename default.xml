@@ -15,6 +15,9 @@
   <remote name="dd"
           fetch="https://github.com/DirtyDevs"
           revision="lollipop-caf" />
+          
+  <remote  name="omni"
+           fetch="https://github.com/omnirom/" />        
 
   <default revision="refs/tags/android-5.1.1_r3"
            remote="aosp"
@@ -26,7 +29,6 @@
   <!--AOSP REPOS-->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
@@ -540,5 +542,7 @@
   
   <!--vendor-->
   <project path="vendor/du" name="android_vendor_du" remote="dd" revision="lollipop-caf" />
-
+  
+  <!--Omni-->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-5.1" />
 </manifest>
