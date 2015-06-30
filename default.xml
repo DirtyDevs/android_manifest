@@ -12,9 +12,9 @@
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
   
-  <remote name="dd"
-          fetch="https://github.com/DirtyDevs"
-          revision="lollipop-caf" />
+  <remote  name="dd"
+           fetch="https://github.com/DirtyDevs"
+           revision="lollipop-caf" />
           
   <remote  name="omni"
            fetch="https://github.com/omnirom/" />        
