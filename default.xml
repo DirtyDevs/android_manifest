@@ -18,7 +18,7 @@
            revision="lollipop-caf" />
           
   <remote  name="omni"
-           fetch="https://github.com/omnirom/" />        
+           fetch="https://github.com/omnirom/" />
 
   <default revision="lollipop-caf"
            remote="du"
