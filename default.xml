@@ -453,7 +453,7 @@
 
   <!--frameworks--> 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="du" revision="lollipop-caf" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="dd" revision="lollipop-caf" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/ex" name="android_frameworks_ex" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="du" revision="lollipop-caf" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="du" revision="lollipop-caf" />
@@ -547,7 +547,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" />
 
   <!--vendor-->
-  <project path="vendor/du" name="android_vendor_du" remote="dd" revision="lollipop-caf" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop-caf" />
   
   <!--Omni-->
   <project path="bootable/twrp" name="android_bootable_recovery" remote="omni" revision="android-5.1" />
