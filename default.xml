@@ -19,7 +19,7 @@
           
   <remote  name="omni"
            fetch="https://github.com/omnirom/" 
-		       revision="android-5.1" />
+           revision="android-5.1" />
 
   <default revision="lollipop"
            remote="du"
