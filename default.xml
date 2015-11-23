@@ -12,6 +12,10 @@
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns/"
            review="gerrit.dirtyunicorns.com" />
+           
+  <remote  name="dd"
+           fetch="https://github.com/DirtyDevs"
+           revision="m-caf" />
 
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
@@ -380,8 +384,8 @@
 
   <!-- DU REPOS -->
   <!-- general -->
-  <project path="manifest" name="android_manifest" remote="du" revision="m-caf" />
-   <project path="build" name="android_build" remote="du" revision="m-caf" >
+  <project path="manifest" name="android_manifest" remote="dd" revision="m-caf" />
+   <project path="build" name="android_build" remote="dd" revision="m-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -390,7 +394,7 @@
   <project path="libcore" name="android_libcore" revision="m-caf" remote="du" />
 
   <!-- device -->
-  <project path="device/qcom/common" name="android_device_qcom_common" revision="m-caf" remote="du" />
+  <project path="device/qcom/common" name="android_device_qcom-common" revision="m-caf" remote="dd" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="m-caf" remote="du" />
 
   <!-- external -->
